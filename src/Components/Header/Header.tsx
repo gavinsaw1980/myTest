@@ -4,16 +4,16 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import './style.css';
+import Image from 'next/image';
 
 export default function Header() {
     return (
     <Navbar collapseOnSelect expand="xl" className="px-1 py-4">
       <Container>
         <Navbar.Brand href="#">
-            <Image src='/logo.png' alt='company logo' className='space' fluid />
+            <Image src='/logo.png' alt='company logo' className='space img-fluid' width={243} height={16} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

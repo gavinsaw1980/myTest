@@ -1,6 +1,7 @@
 import Search from "../Components/Form/Search";
 import CarouselSector from "../Components/Carousel/CarouselSector";
 import CarouselJob from "../Components/Carousel/CarouselJob";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
               <Search />
             </div>
             <div className="col-lg-6 col-sm-12 order-sm-first order-lg-2">
-              <img src='/image-search.png' alt="Elevate your career" className='d-block mx-md-auto img-fluid mb-4 mb-xl-0' />
+              <Image src='/image-search.png' alt="Elevate your career" width={507} height={481} className='d-block mx-md-auto img-fluid mb-4 mb-xl-0' />
             </div>
           </div>
         </div>
@@ -30,19 +31,19 @@ export default function Home() {
         </div>
         <div className="row">
           <div className="col-sm pb-lg-0 pb-4 pt-3">
-            <img src='/logo-microsoft.png' alt="Microsoft" className='d-block mx-md-0 mx-auto' />
+            <Image src='/logo-microsoft.png' alt="Microsoft" width={141} height={30} className='d-block mx-md-0 mx-auto' />
           </div>
           <div className="col-sm pb-lg-0 pb-4 pt-3">
-            <img src='/logo-oracle.png' alt="Oracle" className='d-block mx-md-0 mx-auto' />
+            <Image src='/logo-oracle.png' alt="Oracle" width={159} height={22} className='d-block mx-md-0 mx-auto' />
           </div>
           <div className="col-sm pb-lg-0 pb-4 pt-3">
-            <img src='/logo-atlassian.png' alt="Atlassian" className='d-block mx-md-0 mx-auto' />
+            <Image src='/logo-atlassian.png' alt="Atlassian" width={183} height={22} className='d-block mx-md-0 mx-auto' />
           </div>
           <div className="col-sm pb-lg-0 pb-4 pt-2">
-            <img src='/logo-cloudflare.png' alt="Cloudfare" className='d-block mx-auto' />
+            <Image src='/logo-cloudflare.png' alt="Cloudfare" width={200} height={31} className='d-block mx-auto' />
           </div>
           <div className="col-sm pt-3">
-            <img src='/logo-vmware.png' alt="vmware" className='d-block mx-md-0 mx-auto float-xl-end float-md-none' />
+            <Image src='/logo-vmware.png' alt="vmware" width={147} height={22} className='d-block mx-md-0 mx-auto float-xl-end float-md-none' />
           </div>
         </div>
       </div>
@@ -74,7 +75,7 @@ export default function Home() {
         <div className="container text-lg-left extra-space px-4 px-md-0">
         <div className="row">
           <div className="col-lg-7">
-            <img src='/image-whyus.png' alt="Why us?" className='d-block float-md-none mx-md-auto float-xl-start img-fluid mb-4 mb-xl-0' />
+            <Image src='/image-whyus.png' alt="Why us?" width={580} height={301} className='d-block float-md-none mx-md-auto float-xl-start img-fluid mb-4 mb-xl-0' />
           </div>
           <div className="col-lg-5">
             <h3 className="mb-3 text-white display-6">Why us?</h3>
@@ -95,7 +96,7 @@ export default function Home() {
               <button className="px-3 py-2 common-black-btn">View our services</button>
             </div>
             <div className="col-lg-7 order-sm-first order-lg-2">
-              <img src='/image-whatwedo.png' alt="What we do" className='d-block float-md-none mx-md-auto float-xl-end img-fluid mb-4 mb-xl-0' />
+              <Image src='/image-whatwedo.png' alt="What we do" width={580} height={301} className='d-block float-md-none mx-md-auto float-xl-end img-fluid mb-4 mb-xl-0' />
             </div>
           </div>
         </div>
@@ -122,14 +123,14 @@ export default function Home() {
                   <div className="position-absolute top-0 end-0 red card-label px-2 py-3 me-4 rounded-bottom">
                     Education
                   </div>
-                  <img src="/insights/img-placeholder.png" className="card-img-top" alt="blog 1" />
+                  <Image src="/insights/img-placeholder.png" width={373} height={220} className="card-img-top" alt="blog 1" />
                   <div className="card-body border bottom-radius p-4">
                     <p className="card-subtitle mt-3 mb-3 small">25/08/2023</p>
                     <p className="card-title mb-3">Top Tips for a stand out CV</p>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.</p>
-                    <p className="card-author mt-4 small"><img src="/insights/author.png" alt="author" className="me-3" />J. Gonzalez</p>
+                    <p className="card-author mt-4 small"><Image src="/insights/author.png" alt="author" width={25} height={25} className="me-3" />J. Gonzalez</p>
                     <div className="position-absolute bottom-0 end-0">
-                      <a href="#"><img src="/insights/btn.png" alt="cta-button" /></a>
+                      <a href="#"><Image src="/insights/btn.png" alt="cta-button" width={81} height={83} /></a>
                     </div>
                   </div>
                 </div>
@@ -151,14 +152,14 @@ export default function Home() {
                     <div className="position-absolute top-0 end-0 light-yellow card-label px-2 py-3 me-4 rounded-bottom">
                       Education
                     </div>
-                    <img src="/insights/img-placeholder-2.png" className="card-img-top" alt="blog 2" />
+                    <Image src="/insights/img-placeholder-2.png" width={373} height={220} className="card-img-top" alt="blog 2" />
                     <div className="card-body border bottom-radius p-4">
                       <p className="card-subtitle mt-3 mb-3 small">25/08/2023</p>
                       <p className="card-title mb-3">Gain skills and fast track your career</p>
                       <p className="card-text">Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.</p>
-                      <p className="card-author mt-4 small"><img src="/insights/author.png" alt="author" className="me-3" />J. Gonzalez</p>
+                      <p className="card-author mt-4 small"><Image src="/insights/author.png" alt="author" width={25} height={25} className="me-3" />J. Gonzalez</p>
                       <div className="position-absolute bottom-0 end-0">
-                        <a href="#"><img src="/insights/btn.png" alt="cta-button" /></a>
+                        <a href="#"><Image src="/insights/btn.png" alt="cta-button" width={81} height={83} /></a>
                       </div>
                     </div>
                   </div>
@@ -170,14 +171,14 @@ export default function Home() {
                     <div className="position-absolute top-0 end-0 light-yellow card-label px-2 py-3 me-4 rounded-bottom">
                       Education
                     </div>
-                    <img src="/insights/img-placeholder-3.png" className="card-img-top" alt="blog 3" />
+                    <Image src="/insights/img-placeholder-3.png" width={373} height={220} className="card-img-top" alt="blog 3" />
                     <div className="card-body border bottom-radius p-4">
                       <p className="card-subtitle mt-3 mb-3 small">25/08/2023</p>
                       <p className="card-title mb-3">Resources for developers</p>
                       <p className="card-text">Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.</p>
-                      <p className="card-author mt-4 small"><img src="/insights/author.png" alt="author" className="me-3" />J. Gonzalez</p>
+                      <p className="card-author mt-4 small"><Image src="/insights/author.png" alt="author" width={25} height={25} className="me-3" />J. Gonzalez</p>
                       <div className="position-absolute bottom-0 end-0">
-                        <a href="#"><img src="/insights/btn.png" alt="cta-button" /></a>
+                        <a href="#"><Image src="/insights/btn.png" alt="cta-button" width={81} height={83} /></a>
                       </div>
                     </div>
                   </div>
@@ -193,14 +194,14 @@ export default function Home() {
                     <div className="position-absolute top-0 end-0 light-yellow card-label px-2 py-3 me-4 rounded-bottom">
                       Education
                     </div>
-                    <img src="/insights/img-placeholder-4.png" className="card-img-top" alt="blog 4" />
+                    <Image src="/insights/img-placeholder-4.png" width={373} height={220} className="card-img-top" alt="blog 4" />
                     <div className="card-body border bottom-radius p-4">
                       <p className="card-subtitle mt-3 mb-3 small">25/08/2023</p>
                       <p className="card-title mb-3">Resources for developers</p>
                       <p className="card-text">Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.</p>
-                      <p className="card-author mt-4 small"><img src="/insights/author.png" alt="author" className="me-3" />J. Gonzalez</p>
+                      <p className="card-author mt-4 small"><Image src="/insights/author.png" alt="author" width={25} height={25} className="me-3" />J. Gonzalez</p>
                       <div className="position-absolute bottom-0 end-0">
-                        <a href="#"><img src="/insights/btn.png" alt="cta-button" /></a>
+                        <a href="#"><Image src="/insights/btn.png" alt="cta-button" width={81} height={83} /></a>
                       </div>
                     </div>
                   </div>
@@ -212,14 +213,14 @@ export default function Home() {
                     <div className="position-absolute top-0 end-0 light-yellow card-label px-2 py-3 me-4 rounded-bottom">
                       Education
                     </div>
-                    <img src="/insights/img-placeholder-5.png" className="card-img-top" alt="blog 5" />
+                    <Image src="/insights/img-placeholder-5.png" width={373} height={220} className="card-img-top" alt="blog 5" />
                     <div className="card-body border bottom-radius p-4">
                       <p className="card-subtitle mt-3 mb-3 small">25/08/2023</p>
                       <p className="card-title mb-3">Resources for developers</p>
                       <p className="card-text">Lorem ipsum dolor sit amet consectetur. Pellentesque integer scelerisque amet mauris dolor aliquam lobortis.</p>
-                      <p className="card-author mt-4 small"><img src="/insights/author.png" alt="author" className="me-3" />J. Gonzalez</p>
+                      <p className="card-author mt-4 small"><Image src="/insights/author.png" alt="author" width={25} height={25} className="me-3" />J. Gonzalez</p>
                       <div className="position-absolute bottom-0 end-0">
-                        <a href="#"><img src="/insights/btn.png" alt="cta-button" /></a>
+                        <a href="#"><Image src="/insights/btn.png" alt="cta-button" width={81} height={83} /></a>
                       </div>
                     </div>
                   </div>
