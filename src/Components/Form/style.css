@@ -1,0 +1,29 @@
+.bgcolor {
+    background-color:  #FCDF69;
+    border: none;
+}
+
+.error {
+    color: #FCDF69;
+    font-weight: 700;
+}
+
+.form-control::placeholder { 
+    color: #aaa;
+    font-size: 14px;
+    opacity: 0.5; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.radius {
+    border-radius: 40px;
+}

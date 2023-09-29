@@ -1,0 +1,36 @@
+.blue {
+    background-color: #064EA4;
+}
+
+.border-white {
+    border-color: #fff;
+    opacity: 1 !important;
+}
+
+.orange {
+    background-color: #ff9900;
+}
+
+h4 {
+    color: #fff;
+} 
+
+.page-footer a {
+    font-size: 14px !important;
+    color: #fff !important;
+}
+
+.page-footer a:link {
+    text-decoration: none !important;
+}
+
+.page-footer a:hover {
+    color: #FCDF69 !important;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .t-center {
+        text-align: center;
+    }
+}
